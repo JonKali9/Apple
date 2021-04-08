@@ -2,3 +2,168 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+#top {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 125px auto;
+    height: 150px;
+}
+
+#logo {
+    height: 100%;
+    grid-area: 1 / 1 / 5 / 2;
+}
+
+#top h1 {
+    padding-left: 20px;
+    grid-area: 1 / 2 / 3 / 3;
+    font-size: 70px;
+}
+
+#top p {
+    padding-top: 10px;
+    padding-left: 10px;
+    grid-area: 3 / 2 / 5 / 3;
+    font-size: 30px;
+}
+
+
+
+#mission {
+    margin: 60px 200px;
+    max-width: 750px;
+}
+
+#mission h2 {
+    text-decoration: underline;
+    padding-left: 25px;
+    font-size: 50px;
+}
+
+#mission p {
+    font-size: 30px;
+}
+
+
+
+#locations {
+    margin: 0 200px;
+}
+
+#locations img {
+    display: block;
+    height: 50vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-height: 500px;
+}
+
+#locations h2 {
+    margin-top: 25px;
+    text-decoration: underline;
+    padding-left: 25px;
+    font-size: 50px;
+}
+
+#locations p {
+    font-size: 25px;
+}
+
+#locations ul {
+    padding-left: 50px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+#products {
+    text-align: center;
+    margin: 75px 50px;
+}
+
+#products img {
+    display: block;
+    height: 55vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-height: 700px;
+}
+
+#products h2 {
+    margin: 25px 0 10px 0;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#products p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#products li {
+    margin: 5px 0;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+#products ul img {
+    margin-bottom: 30px;
+    width: 65%;
+    height: auto;
+    max-width: 800px;
+}
+
+
+
+#founder {
+    text-align: center;
+    margin: 200px 50px;
+}
+
+#founder img {
+    display: block;
+    height: 55vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-height: 700px;
+}
+
+#founder h2 {
+    margin: 25px 0 5px 0;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#founder p {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+
+#contact {
+    text-align: center;
+    margin: 300px 50px;
+}
+
+#contact h2 {
+    text-decoration: underline;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#bottom {
+    margin-top: 300px;
+    padding: 10px 30px;
+}
